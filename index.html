@@ -10,27 +10,42 @@
 </head>
 
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae consectetur nisi. Vivamus ut nibh justo.
-        <span class="placeholder" id="noun1">___________</span> eros odio, tristique eget ultricies et, lacinia sit amet neque. Donec
-        vestibulum bibendum felis at
-        auctor. Sed sed efficitur augue. <span class="placeholder" id="noun2">________</span> efficitur accumsan lectus, eget hendrerit mi
-        malesuada nec. Phasellus
-        egestas massa sed massa laoreet vehicula. Orci varius natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus.</p>
+    <p>Once upon a time, the universe began, and we've all been trying to untangle it since. 
+        There are, of course, a thousand creation myths a thousand times over, some solemn, some absurd. 
+        In the tradition of tiny <span class="placeholder" id="noun1">___________</span> Islands, storytellers
+        relate the tale of how the world was born from a <span class="placeholder" id="noun2">________</span> 
+        that grew so large it exploded, creating everything.</p>
     <p>
-        In hac habitasse platea dictumst. Aenean eget accumsan metus, vitae scelerisque lectus. Phasellus cursus lorem
-        augue, sit amet tincidunt nulla iaculis sit amet. Vivamus iaculis sodales consectetur. Proin imperdiet odio nec
-        tellus luctus porttitor. Phasellus tristique eget dui ut convallis. Vestibulum suscipit, magna eget maximus
-        condimentum, nunc enim placerat orci, ut dapibus diam diam sed libero. In tincidunt, velit quis suscipit
-        accumsan, sapien lacus consequat arcu, vel venenatis lacus leo in quam. Aliquam euismod nibh nulla.</p>
-    <form>
-        <label>A Noun:
+        Other places tell it differently, of course. In the tales of the <span class = "placeholder" id = 'adjective1'>______</span>
+        Villages of Mount <span class = "placeholder" id = 'name1'>________</span>, the world was born when a cursed
+        <span class = 'placeholder' id = 'noun3'>______</span> was <span class = 'placeholder' id = 'pastverb1'>______</span>
+        by a <span class = 'placeholder' id = 'noun4'>______</span>. Aren't stories wild?</p>
+    <form><div>
+        <label>A noun:
             <input type="text" id="noun1Input" value="" />
         </label>
-        <label>Another Noun:
+        <button type="button" id="clickMe">Submit your first noun</button>
+    </div><div>
+        <label>Another noun
             <input type="text" id="noun2Input" value="" />
         </label>
-        <button type="button" id="clickMe">Click Me</button>
+        <button type = 'button' id = "clickThis">Submit your second noun </button></div>
+
+        <div><label> An Adjective: <input type = 'text' id = 'adjective1Input' value = ""/> </label>
+        <button type = 'button' id = 'adjectiveClick'>Submit an adjective </button></div>
+
+        <div><label>A Proper Name: <input type = 'text' id = 'properNameInput' value = ''/> </label>
+        <button type="button" id = 'nameClick'>Submit a proper name </button></div>
+        
+        <div><label>Another Noun: <input type = 'text' id = 'noun3Input' value = ''/></label>
+        <button type = 'button' id = 'noun3Button'>Enter a third noun </button></div>
+
+        <div><label>A Past-Tense Verb: <input type = 'text' id = 'pastInput' value=""/></label>
+        <button type = 'button' id = 'pastVerb'>Enter a past-tense verb</button></div>
+        
+        <div><label>Another Noun: <input type = 'text' id = 'noun4Input' value = ""/></label>
+        <button type = 'button' id = 'noun4Button'>Enter another noun</button></div>
+
     </form>
 </body>
 <script src="js/index.js"></script>
