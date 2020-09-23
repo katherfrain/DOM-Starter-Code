@@ -59,6 +59,7 @@ const noun3Input = document.getElementById('noun3Input');
 
 skippedButton.addEventListener('click', function(event) {
   event.preventDefault();
-  noun3.innerHTML = noun3Input.value;  event.preventDefault();
+  noun3.innerHTML = noun3Input.value;
+  event.preventDefault();
   noun3.innerHTML = noun3Input.value;
 })
